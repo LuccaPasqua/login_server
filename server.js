@@ -13,7 +13,7 @@ app.use(bodyParser());
 
 app.use('/users', UserRouter)
 app.get('/', (req,res) => {
-  res.send('I love you')
+  res.send('I love you Rebecca Repsold Pessoa ❤️')
 })
 
 app.listen(port, () => {
